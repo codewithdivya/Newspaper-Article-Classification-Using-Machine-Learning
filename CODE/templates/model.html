@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Greatness by FreeHTML5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://FreeHTML5.co
+-->
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BBC NEWS</title>
+		<link rel="shortcut icon" type="image/x-icon" href="static/images/download.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="FreeHTML5.co" />
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600,400italic,700' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="static/css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="static/css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="static/css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="static/css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="static/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="static/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="static/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="static/js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body >
+
+	<div class="gtco-loader"></div>
+
+	<div id="page">
+	<nav class="gtco-nav" role="navigation">
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-xs-2">
+					<div id="gtco-logo" style="font-size:18.5px"><a href="/"style="color:#F85A16">BBC News</a></div>
+				</div>
+				<div class="col-xs-10 text-right menu-1">
+					<ul>
+						<a style="color:#F85A16"href="/">Home</a>
+
+
+						<a style="color:#F85A16"href="/model">Model</a>
+						<a style="color:#F85A16"href="/prediction">Prediction</a>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</nav>
+
+
+		<div class="overlay"></div>
+		<div class="gtco-container">
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<center><h3>{{msg}}</h3></center>
+							<h1>Classification of BBC News</h1>
+							<h2>With the help of Machine Learning</h2>
+							<p>
+
+                                <form action="{{url_for('model')}}" method="post">
+<!--								<a href="/upload" class="btn btn-primary btn-lg">Get Started</a>-->
+                            <select name="algo">
+                                <option value="0">Choose an Algorithm</option>
+                                <option value="1">Logistic Regression</option>
+                                <option value="2">Naive Bayes</option>
+							</select>
+                            <input type="submit" value="Submit">
+                                </form>
+<!--								<a href="#" class="btn btn-white btn-outline btn-lg"></a></p>-->
+
+							<img src="static/images/image.png" alt=”Image” height="2000" width="1200">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="static/js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="static/js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="static/js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="static/js/jquery.waypoints.min.js"></script>
+	<!-- Carousel -->
+	<script src="static/js/owl.carousel.min.js"></script>
+	<!-- countTo -->
+	<script src="static/js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="static/js/jquery.magnific-popup.min.js"></script>
+	<script src="static/js/magnific-popup-options.js"></script>
+	<!-- Main -->
+	<script src="static/js/main.js"></script>
+
+	</body>
+</html>
+
